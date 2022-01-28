@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    /* --primary-color:#ff3f6c; */
+    --primary-color: rgb(9, 208, 243);
+    --secondary-color: #fff;
+    --text-color: #000;
+  }
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container{
+    min-height: 100%;
+    height: max-content;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 0px 2px 1px;
+}
+
+.left-nav{
+    padding: 1rem;
+    margin-left: 1rem;
+    
+}
+
+.left-nav a{
+    font-size: 3rem;
+    text-decoration: none;
+    color: var(--text-color);
+    
+}
+.right-nav{
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+
+}
+
+.right-nav li{
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.right-nav a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+.right-nav li a:hover{
+   color: var(--text-color);
+}
+
+.toggle-btn{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35px;
+    height: 21px;
+    margin-top: .7rem;
+}
+
+.toggle-btn .bar{
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--text-color);
+    color: var(--secondary-color);
+}
+@media screen and (max-width: 800px){
+    html{
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .toggle-btn{
+        display: flex;
+    }
+
+    .right-nav{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        background-color:  rgb(225, 246, 245);
+        width: 100%;
+    }
+    
+    .nav-bar{
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: var(--secondary-color);
+        box-shadow: 0px 0px 1px 1px;
+    }
+
+    .right-nav li{
+        padding: 1rem;
+        margin-right: 0;
+        width: 100%;
+        text-align: center; 
+        display: block;
+    }
+
+    .right-nav li:hover{
+        background-color: rgb(245, 241, 241);
+        
+    }
+
+    .right-nav a{
+        font-size: 2rem;
+    }
+    .right-nav.active{
+        display: flex;
+    }
+
+}
