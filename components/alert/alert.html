@@ -5,8 +5,119 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alert</title>
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/components/alert/alert.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    
+    <div class="container">
+        <nav class="nav-bar">
+          <div class="left-nav">
+              <a href="#">
+                  UI Book
+              </a>
+              </div>
+          <button href="#" class="toggle-btn">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </button>
+          <ul class="right-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="doc-container">
+          <div class="component-menu">
+            <div class="titles"><strong>Components</strong> 
+
+            </div>
+            <div class="list-items">
+              <ul>
+                <li><a href="#">Alert</a></li>
+                <li><a href="#">Avatar</a></li>
+                <li><a href="#">Badge</a></li>
+                <li><a href="#">Button</a></li>
+                <li><a href="#">Card</a></li>
+                <li><a href="#">Image</a></li>
+                <li><a href="#">Input</a></li>
+                <li><a href="#">Text Utilities</a></li>
+                <li><a href="#">List</a></li>
+                <li><a href="#">Navigation</a></li>
+                <li><a href="#">Modal</a></li>
+                <li><a href="#">Rating</a></li>
+                <li><a href="#">Tost</a></li>
+                <li><a href="#">Grid</a></li>
+                <li><a href="#">Slider</a></li>
+              
+              </ul>
+            </div>
+          </div>
+          <div class="doc-content">
+            <div class="heading">Alert</div>
+            <div class="intro-line">
+              An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.
+            </div>
+            <div class="divider"></div>
+            <div class="sub-heading">
+              <strong>Basic Alert</strong>
+            </div>
+            <div class="sub-head-content">
+              The alert provides four levels of severity that can be identified with a distinct icon and colour.
+            </div>
+            <div class="practical alert-box">
+                <div class="alert error">
+                  <i class='bx bx-error-circle'></i>
+                  This is an error alert — check it out!
+                </div>
+                <div class="alert warning">
+                  
+                  <i class='bx bx-error'></i>
+                  This is a warning alert  — check it out!
+              
+                </div>
+                <div class="alert info">
+                  
+                  <i class='bx bx-info-circle'></i>
+                  This is an info alert — check it out!
+                
+                </div>
+                <div class="alert success">
+                  
+                  <i class='bx bx-check-circle'></i>
+                  This is a success alert — check it out!
+        
+                </div>
+            </div>
+            <div class="code-box">
+              <pre>
+                <code class="html">
+                  <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520error%2522%253E%250A%2509%253Ci%2520class%253D%27bx%2520bx-error-circle%27%253E%253C%252Fi%253EThis%2520is%2520an%2520error%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%250A%2509%253Ci%2520class%253D%27bx%2520bx-error%27%253E%253C%252Fi%253E%2520This%2520is%2520a%2520warning%2520alert%2520%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27bx%2520bx-info-circle%27%253E%253C%252Fi%253EThis%2520is%2520an%2520info%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520success%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27bx%2520bx-check-circle%27%253E%253C%252Fi%253EThis%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                  style="width: 865px; height: 505px; border:0; transform: scale(1); overflow:hidden;"
+                  sandbox="allow-scripts allow-same-origin">
+                </iframe>     
+                </code>
+              </pre>
+            </div>
+            <div class="divider"></div>
+            <footer>
+              <div class="pre-page">
+                <a href="#">
+                  <i class="bx bxs-left-arrow-alt"></i>Alert
+                </a></div>
+              <div class="next-page">
+                <a href="#">
+                  <i class='bx bxs-right-arrow-alt'></i>Avatar
+                </a></div>
+            </footer>
+          </div>
+        </div>
+      </div>
+      <script src="/script.js"></script>
+    </div>
 </body>
 </html>

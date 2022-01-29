@@ -1,6 +1,7 @@
-const toggleBtn = document.getElementsByClassName('toggle-btn')[0];
-const rightNav = document.getElementsByClassName("right-nav");
+const toggleBtnTwo = document.querySelector(".toggle-btn");
+const rightNavTwo = document.querySelector(".right-nav");
 
-toggleBtn.addEventListner('click', () => {
-    rightNav.toggle('active')
-})
+toggleBtnTwo.addEventListener("click", () => {
+  rightNavTwo.classList.toggle("active");
+  console.log(rightNavTwo);
+});
