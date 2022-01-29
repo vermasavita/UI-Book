@@ -89,8 +89,8 @@ body{
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 35px;
-    height: 21px;
+    width: 3.5rem;
+    height: 2.1rem;
     margin-top: .7rem;
     border: none;
     background-color: var(--secondary-color);
