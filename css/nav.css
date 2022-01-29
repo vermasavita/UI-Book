@@ -9,8 +9,8 @@
 }
 
 :root {
-    /* --primary-color:#ff3f6c; */
-    --primary-color: rgb(9, 208, 243);
+    --primary-color:#ff3f6c;
+    /* --primary-color: rgb(9, 208, 243); */
     --secondary-color: #fff;
     --text-color: #000;
     --bg-secondary-color: #d8d8da;
@@ -104,11 +104,6 @@ body{
     background-color: var(--text-color);
     color: var(--secondary-color);
 }
-/* @media screen and (max-width: 800px){
-    html{
-        font-size: 60%;
-    }
-} */
 
 @media screen and (max-width: 1200px) {
     .toggle-btn{
