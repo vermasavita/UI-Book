@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/components/alert/alert.css">
+    <link rel="stylesheet" href="/components/input/input.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-bar">
+            <div class="left-nav">
+                <a href="#">
+                    UI Book
+                </a>
+            </div>
+            <button href="#" class="toggle-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="right-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="/components/alert/alert.html">Documentation</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="doc-container">
+            <div class="component-menu">
+                <div class="titles"><strong>Components</strong>
+
+                </div>
+                <div class="list-items">
+                    <ul>
+                        <li><a href="/components/alert/alert.html">Alert</a></li>
+                        <li><a href="/components/avatar/avatar.html">Avatar</a></li>
+                        <li><a href="/components/badge/badge.html">Badge</a></li>
+                        <li><a href="/components/button/button.html">Button</a></li>
+                        <li><a href="/components/card/card.html">Card</a></li>
+                        <li><a href="/components/image/image.html">Image</a></li>
+                        <li><a href="/components/input/input.html">Input</a></li>
+                        <li><a href="#">Text Utilities</a></li>
+                        <li><a href="#">List</a></li>
+                        <li><a href="#">Navigation</a></li>
+                        <li><a href="#">Modal</a></li>
+                        <li><a href="#">Rating</a></li>
+                        <li><a href="#">Tost</a></li>
+                        <li><a href="#">Grid</a></li>
+                        <li><a href="#">Slider</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="doc-content">
+                <div class="heading">Input</div>
+                <div class="intro-line">
+
+                </div>
+                <div class="divider"></div>
+                <div class="sub-heading">
+                    <strong>Text Field Input</strong>
+                </div>
+                <div class="sub-head-content">
+
+                </div>
+                <div class="practical ipt">
+                    <div class="ipt-box">
+                        <label>
+                            Username *
+                        </label>
+                        <input type="text">
+                    </div>
+                    <div class="ipt-box err">
+                        <label>
+                            Password *
+                        </label>
+                        <input type="text">Wrong password. Try again.
+                    </div>
+                </div>
+                <div class="code-box">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ipt-box%2522%253E%250A%2509%253Clabel%253EUsername%2520*%253C%252Flabel%253E%250A%2509%253Cinput%2520type%253D%2522text%2522%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522ipt-box%2520err%2522%253E%250A%2509%253Clabel%253EPassword%2520*%253C%252Flabel%253E%250A%2509%253Cinput%2520type%253D%2522text%2522%253EWrong%2520password.%2520Try%2520again.%250A%253C%252Fdiv%253E"
+                            style="width: 1020px; height: 377px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+                <div class="sub-heading">
+                    <strong>Radio</strong>
+                </div>
+                <div class="sub-head-content">
+
+                </div>
+                <div class="practical">
+                    <div class="radio">
+                        <label for="radio-1">Checked
+                            <input id="radio-1" name=radio" type="radio" checked>
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label for="radio-2">Unchecked
+                            <input id="radio-2" name=radio" type="radio" unchecked>
+                        </label>
+                    </div>
+
+                    <div class="radio">
+                        <label for="radio-3">Disabled
+                            <input id="radio-3" name=radio" type="radio" disabled>
+                        </label>
+                    </div>
+
+                </div>
+                <div class="code-box">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522radio%2522%253E%250A%2509%253Clabel%2520for%253D%2522radio-1%2522%253EChecked%250A%2509%253Cinput%2520id%253D%2522radio-1%2522%2520name%253Dradio%2522%2520type%253D%2522radio%2522%2520checked%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522radio%2522%253E%250A%2509%253Clabel%2520for%253D%2522radio-2%2522%253EUnchecked%250A%2509%253Cinput%2520id%253D%2522radio-2%2522%2520name%253Dradio%2522%2520type%253D%2522radio%2522%2520unchecked%253E%250A%2509%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522radio%2522%253E%250A%2509%253Clabel%2520for%253D%2522radio-3%2522%253EDisabled%250A%2509%253Cinput%2520id%253D%2522radio-3%2522%2520name%253Dradio%2522%2520type%253D%2522radio%2522%2520disabled%253E%250A%2509%253C%252Flabel%253E%250A%253C%252Fdiv%253E%2520"
+                            style="width: 1024px; height: 548px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+
+                <div class="sub-heading">
+                    <strong>Text Field Input</strong>
+                </div>
+                <div class="sub-head-content">
+
+                </div>
+                <div class="practical">
+                    <div class="checkbox">
+                        <label for="radio-1">Checked
+                            <input id="checkbox-1" name=checkbox" type="checkbox" checked>
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="radio-2">Unchecked
+                            <input id="checkbox-2" name=checkbox" type="checkbox" unchecked>
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <label for="checkbox-3">Disabled
+                            <input id="checkbox-3" name=checkbox" type="checkbox" disabled>
+                        </label>
+                    </div>
+                </div>
+                <div class="code-box">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522checkbox%2522%253E%250A%2509%253Clabel%2520for%253D%2522checkbox-1%2522%253EChecked%250A%2509%253Cinput%2520id%253D%2522checkbox-1%2522%2520name%253Dcheckbox%2522%2520type%253D%2522checkbox%2522%2520checked%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2520%2520%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522checkbox%2522%253E%250A%2509%253Clabel%2520for%253D%2522checkbox-2%2522%253EUnchecked%250A%2509%253Cinput%2520id%253D%2522checkbox-2%2522%2520name%253Dcheckbox%2522%2520type%253D%2522checkbox%2522%2520unchecked%253E%250A%2509%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522checkbox%2522%253E%250A%2509%253Clabel%2520for%253D%2522checkbox-3%2522%253EDisabled%250A%2509%253Cinput%2520id%253D%2522checkbox-3%2522%2520name%253Dcheckbox%2522%2520type%253D%2522checkbox%2522%2520disabled%253E%250A%2509%253C%252Flabel%253E%250A%253C%252Fdiv%253E%2520"
+                            style="width: 1024px; height: 548px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+                <div class="divider"></div>
+                <footer>
+                    <div class="pre-page">
+                        <a href="/components/image/image.html">
+                            <i class="bx bxs-left-arrow-alt"></i>Image
+                        </a></div>
+                    <div class="next-page">
+                        <a href="#">
+                            <i class='bx bxs-right-arrow-alt'></i>Text Utilities
+                        </a></div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+    </div>
+</body>
+
+</html>
