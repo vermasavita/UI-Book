@@ -1,0 +1,58 @@
+.list-box {
+    width: 20rem;
+    max-width: 92%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px var(--bg-secondary-color);
+}
+
+.list-title {
+    border-radius: 5px 5px 0px 0px;
+    font-size: 1.7rem;
+    padding: 1rem;
+    border-bottom: 1px solid var(--bg-secondary-color);
+    margin-bottom: .5rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.list-box ul li {
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+    list-style: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.list-box ul li:hover {
+    color: var(--primary-color);
+}
+
+.nested-list li a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.list-box .nested-list div:hover {
+    color: var(--primary-color);
+}
+
+.list-box .nested-list:hover {
+    color: (--primary-color);
+}
+
+.list-box .nested-list li a:hover {
+    color: var(--primary-color);
+}
+
+.stacked-list {
+    width: 35rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    padding: 1rem;
+}
+
+.stacked-list li {
+    box-shadow: 0px 0px 2px 1px var(--bg-secondary-color);
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+}
