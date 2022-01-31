@@ -1,12 +1,12 @@
 
-.component-menu{
-    height: 100%;
+.component-menu {
+    height: 100vh;
     width: 25rem;
     font-family: 'Nunito Sans', sans-serif;
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
 }
 
-.titles{
+.titles {
     text-decoration: none;
     font-size: 2.5rem;
     padding: 1rem;
@@ -14,12 +14,12 @@
     padding-left: 3rem;
 }
 
-.list-items{
+.list-items {
     font-size: 1rem;
 }
 
 
-.list-items li{
+.list-items li {
     font-size: 1rem;
     height: 4rem;
     display: flex;
@@ -27,20 +27,21 @@
     justify-content: center;
     padding-left: 3rem;
     cursor: pointer;
-    
+
 }
 
-.list-items li:hover{
+.list-items li:hover {
     background-color: var(--bg-secondary-color);
 }
-.list-items li a{
+
+.list-items li a {
     text-decoration: none;
     font-size: 1.5rem;
     color: var(--text-color);
 }
 
 @media screen and (max-width: 1200px) {
-    .component-menu{
+    .component-menu {
         display: none;
     }
 }
