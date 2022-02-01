@@ -1,0 +1,9 @@
+.heading-txt {
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+}
+
+.small-txt {
+    font-size: 2rem;
+}
