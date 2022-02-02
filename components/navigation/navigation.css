@@ -1,7 +1,6 @@
 .nav-boxx {
     height: 5rem;
     width: 80%;
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -12,9 +11,6 @@
 
 .logo {
     font-size: 2rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     margin-left: 1rem;
     font-family: cursive;
     color: var(--secondary-color);
