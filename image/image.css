@@ -1,0 +1,15 @@
+.img-box-1 img {
+    height: 40rem;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.img-box-2 img {
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 1rem;
+}
