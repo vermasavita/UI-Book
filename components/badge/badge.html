@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge</title>
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/components/avatar/avatar.css">
+    <link rel="stylesheet" href="/components/badge/badge.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-bar">
+            <div class="left-nav">
+                <a href="#">
+                    UI Book
+                </a>
+            </div>
+            <button href="#" class="toggle-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="right-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="/components/alert/alert.html">Documentation</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="doc-container">
+            <div class="component-menu">
+                <div class="titles"><strong>Components</strong>
+
+                </div>
+                <div class="list-items">
+                    <ul>
+                        <li><a href="/components/alert/alert.html">Alert</a></li>
+                        <li><a href="/components/avatar/avatar.html">Avatar</a></li>
+                        <li><a href="/components/badge/badge.html">Badge</a></li>
+                        <li><a href="/components/button/button.html">Button</a></li>
+                        <li><a href="/components/card/card.html">Card</a></li>
+                        <li><a href="/components/image/image.html">Image</a></li>
+                        <li><a href="/components/input/input.html">Input</a></li>
+                        <li><a href="/components/typography/typography.html">Typography</a></li>
+                        <li><a href="/components/list/list.html">List</a></li>
+                        <li><a href="#">Navigation</a></li>
+                        <li><a href="#">Modal</a></li>
+                        <li><a href="#">Rating</a></li>
+                        <li><a href="#">Tost</a></li>
+                        <li><a href="#">Grid</a></li>
+                        <li><a href="#">Slider</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="doc-content">
+                <div class="heading">Badge</div>
+                <div class="intro-line">
+                    Badge shows if staus
+                </div>
+                <div class="divider"></div>
+                <div class="sub-heading">
+                    <strong>Avatar Badge</strong>
+                </div>
+                <div class="sub-head-content">
+                    Avatar badge helps us to find the status of user in specific platform. There can be 3 more status
+                    like, online, offline, DND
+                </div>
+                <div class="practical">
+                    <div class="badge">
+                        <img src="/images/img-avatar-1.jpeg" alt="image 1" class="avatar">
+                        <span class="status online"></span>
+                    </div>
+                    <div class="badge">
+                        <img src="/images/img-avatar-2.jpeg" alt="image 2" class="avatar">
+                        <span class="status offline"></span>
+                    </div>
+
+                    <div class="badge">
+                        <img src="/images/img-avatar-3.jpeg" alt="image 3" class="avatar">
+                        <span class="status dnd"></span>
+                    </div>
+
+
+                </div>
+                <div class="code-box">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cimg%2520src%253D%2522%252Fimages%252Fimg-avatar-1.jpeg%2522%2520alt%253D%2522image%25201%2522%2520class%253D%2522avatar%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2509%253Cspan%2520class%253D%2522status%2520online%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cimg%2520src%253D%2522%252Fimages%252Fimg-avatar-2.jpeg%2522%2520alt%253D%2522image%25202%2522%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522status%2520offline%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cimg%2520src%253D%2522%252Fimages%252Fimg-avatar-3.jpeg%2522%2520alt%253D%2522image%25203%2522%2520class%253D%2522avatar%2522%253E%250A%2509%253Cspan%2520class%253D%2522status%2520dnd%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                            style="width: 1020px; height: 484px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+                <div class="sub-heading">
+                    <strong>Icon Badge</strong>
+                </div>
+                <div class="sub-head-content">
+                    You can change the <code><strong>width</strong></code> and <code><strong>height</strong></code> of
+                    CSS
+                    properties.
+                </div>
+                <div class="practical">
+                    <a class="icon-badge" href="#">
+                        <i class='bx bxs-cart-alt'></i>
+                        <span class="noticon">+3</span>
+                    </a>
+                    <a class="icon-badge " href="#">
+                        <i class='bx bxl-gmail'></i>
+                        <span class="noticon">+8</span>
+                    </a>
+                </div>
+                <div class="code-box">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Ca%2520class%253D%2522icon-badge%2522%2520href%253D%2522%2523%2522%253E%250A%2509%253Ci%2520class%253D%27bx%2520bxs-cart-alt%27%253E%253C%252Fi%253E%250A%2509%253Cspan%2520class%253D%2522noticon%2522%253E%252B3%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fa%253E%250A%250A%253Ca%2520class%253D%2522icon-badge%2520%2522%2520href%253D%2522%2523%2522%253E%250A%2509%253Ci%2520class%253D%27bx%2520bxl-gmail%27%253E%253C%252Fi%253E%250A%2509%253Cspan%2520class%253D%2522noticon%2522%253E%252B8%253C%252Fspan%253E%250A%253C%252Fa%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                            style="width: 1024px; height: 377px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+
+                <div class="divider"></div>
+                <footer>
+                    <div class="pre-page">
+                        <a href="/components/avatar/avatar.html">
+                            <i class="bx bxs-left-arrow-alt"></i>Avatar
+                        </a>
+                    </div>
+                    <div class="next-page">
+                        <a href="/components/button/button.html">
+                            <i class='bx bxs-right-arrow-alt'></i>Button
+                        </a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+    </div>
+</body>
+
+</html>
