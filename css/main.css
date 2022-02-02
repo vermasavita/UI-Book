@@ -8,16 +8,13 @@
 }
 
 .head-content{
-    margin: auto auto auto auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 60%;
     margin: auto;
-    margin-top: 12rem;
-   
-
+    margin-top: 12rem; 
 }
 
 .head-content span{
@@ -31,7 +28,7 @@
     width: 95%;
     font-weight: 900;
     color: var(--text-color);
-    font-family:fantasy 
+    font-family: fantasy;
 }
 
 .head-content h3{
@@ -55,7 +52,6 @@
     border-radius: 5px;
     color: var(--primary-color);
     font-size: 2rem;
-    padding: .5rem;
     text-decoration: none;
     margin-right: 2rem;
     padding: 1rem;
