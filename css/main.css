@@ -1,0 +1,95 @@
+.main-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.head-content{
+    margin: auto auto auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 12rem;
+   
+
+}
+
+.head-content span{
+    color: var(--primary-color);
+    font-family:cursive;
+}
+.head-content h1{
+    font-size: 6rem;
+    margin-bottom:1.8rem;
+    text-align: center;
+    width: 95%;
+    font-weight: 900;
+    color: var(--text-color);
+    font-family:fantasy 
+}
+
+.head-content h3{
+    font-size: 1.7rem;
+    font-weight: 460;
+    margin-bottom: 3rem;
+    line-height: 2.5rem;
+    width: 70%;
+}
+
+.twin-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twin-btn a{
+    background-color: var(--secondary-color);
+    box-shadow: 0 8px 12px var(--bg-secondary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    color: var(--primary-color);
+    font-size: 2rem;
+    padding: .5rem;
+    text-decoration: none;
+    margin-right: 2rem;
+    padding: 1rem;
+}
+
+@media screen and (max-width:1050px) {
+    html{
+        font-size: 50%;
+    }
+
+    .head-content{
+        margin-top: 18rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    html{
+        font-size: 45%;
+    }
+    .head-content{
+        margin-top: 22rem;
+    }
+
+    .head-content h3{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .head-content {
+        width: 100%;
+    }
+
+    .head-content h3{
+        width: 90%;
+    }
+}
