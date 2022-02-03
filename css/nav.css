@@ -53,10 +53,16 @@ body {
   margin-left: 1rem;
 }
 
+.left-nav span{
+  font-family: cursive;
+}
+
 .left-nav a {
   font-size: 3rem;
   text-decoration: none;
   color: var(--text-color);
+  color: var(--primary-color);
+  text-shadow: 3px 2px var(--bg-secondary-color);
 }
 
 .right-nav {
@@ -74,12 +80,12 @@ body {
 .right-nav a {
   text-decoration: none;
   font-size: 1.6rem;
-  font-weight: 400;
-  color: var(--primary-color);
+  font-weight: 600;
+  color: var(--text-color);
 }
 
 .right-nav li a:hover {
-  color: var(--text-color);
+  color: var(--primary-color);
 }
 
 .toggle-btn {
