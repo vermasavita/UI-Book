@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Button</title>
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=ruby&amp;skin=sons-of-obsidian">
+  </script>
   <link rel="stylesheet" href="/css/nav.css">
   <link rel="stylesheet" href="/css/sidebar.css">
   <link rel="stylesheet" href="/css/components.css">
@@ -63,7 +65,6 @@
         <div class="heading">Button</div>
         <div class="intro-line">
           Button is the container to which used to perform specific action.
-          <!-- For example: There are two buttons at the end of a form i.e. "Submit" button and "Cancel" button. In order to submit the form user has to click on "Submit" button. -->
         </div>
         <div class="divider"></div>
         <div class="sub-heading">
@@ -78,13 +79,11 @@
           <button class="btn outline">Outline</button>
         </div>
         <div class="code-box">
-          <code>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520text%2522%253EText%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520contained%2522%253EContained%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outline%2522%253EOutline%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-              style="width: 1024px; height: 271px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </code>
+          <pre class="prettyprint">
+            &lt;button class="btn text"&gt;Text&lt;/button&gt;
+            &lt;button class="btn contained"&gt;Contained&lt;/button&gt;
+            &lt;button class="btn outline"&gt;Outline&lt;/button&gt;
+          </pre>
         </div>
         <div class="sub-heading">
           <strong>Link Button</strong>
@@ -99,13 +98,11 @@
 
         </div>
         <div class="code-box">
-          <cod>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2522%253E%250A%2509%253Ca%2520class%253D%2522link%2522%2520href%253D%2522%2523%2522%253ELink%253C%252Fa%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-              style="width: 1024px; height: 250px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </cod>
+          <pre class="prettyprint">
+            &lt;button class="btn"&gt;
+              &lt;a class="link" href="#"&gt;Link&lt;/a&gt;
+            &lt;/button&gt;
+          </pre>
         </div>
         <div class="sub-heading">
           <strong>Icon Button</strong>
@@ -119,13 +116,11 @@
           </button>
         </div>
         <div class="code-box">
-          <code>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253ESend%250A%2509%253Ci%2520class%253D%27bx%2520bxs-send%27%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-              style="width: 1024px; height: 250px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </code>
+          <pre class="prettyprint">
+            &lt;button class="btn btn-icon"&gt;
+              &lt;i class='bx bxs-send'&gt;&lt;/i&gt;
+            &lt;/button&gt;
+          </pre>
         </div>
         <div class="sub-heading">
           <strong>Floating Action Button</strong>
@@ -143,14 +138,15 @@
         </div>
         <div class="code-box">
 
-          <code>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522float-icon%2522%253E%250A%2509%253Ci%2520class%253D%27bx%2520bx-plus%27%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522float-icon%2522%253E%250A%2509%253Ci%2520class%253D%27bx%2520bx-up-arrow-alt%27%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-              style="width: 1024px; height: 356px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </code>
+          <pre class="prettyprint">
+            &lt;button class="float-icon"&gt;
+              &lt;i class='bx bx-plus'&gt;&lt;/i&gt;
+            &lt;/button&gt;
 
+            &lt;button class="float-icon"&gt;
+              &lt;i class='bx bx-up-arrow-alt'&gt;&lt;/i&gt;
+            &lt;/button&gt;
+          </pre>
         </div>
         <div class="divider"></div>
         <footer>

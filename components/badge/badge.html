@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Badge</title>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=ruby&amp;skin=sons-of-obsidian">
+    </script>
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/components.css">
@@ -90,13 +92,22 @@
 
                 </div>
                 <div class="code-box">
-                    <code>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cimg%2520src%253D%2522%252Fimages%252Fimg-avatar-1.jpeg%2522%2520alt%253D%2522image%25201%2522%2520class%253D%2522avatar%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2509%253Cspan%2520class%253D%2522status%2520online%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cimg%2520src%253D%2522%252Fimages%252Fimg-avatar-2.jpeg%2522%2520alt%253D%2522image%25202%2522%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522status%2520offline%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cimg%2520src%253D%2522%252Fimages%252Fimg-avatar-3.jpeg%2522%2520alt%253D%2522image%25203%2522%2520class%253D%2522avatar%2522%253E%250A%2509%253Cspan%2520class%253D%2522status%2520dnd%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
-                            style="width: 1020px; height: 484px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </code>
+                    <pre class="prettyprint">
+                        &lt;div class="badge"&gt;
+                          &lt;img src="/images/img-avatar-1.jpeg" alt="image 1" class="avatar"&gt;
+                          &lt;span class="status online">&lt;/span&gt;
+                         &lt;/div&gt;
+
+                        &lt;div class="badge"&gt;
+                            &lt;img src="/images/img-avatar-2.jpeg" alt="image 2" class="avatar"&gt;
+                            &lt;span class="status offline">&lt;/span&gt;
+                        &lt;/div>
+    
+                        &lt;div class="badge"&gt;
+                            &lt;img src="/images/img-avatar-3.jpeg" alt="image 3" class="avatar"&gt;
+                            &lt;span class="status dnd"&gt;&lt;/span&gt;
+                        &lt;/div&gt;
+                    </pre>
                 </div>
                 <div class="sub-heading">
                     <strong>Icon Badge</strong>
@@ -117,13 +128,17 @@
                     </a>
                 </div>
                 <div class="code-box">
-                    <code>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Ca%2520class%253D%2522icon-badge%2522%2520href%253D%2522%2523%2522%253E%250A%2509%253Ci%2520class%253D%27bx%2520bxs-cart-alt%27%253E%253C%252Fi%253E%250A%2509%253Cspan%2520class%253D%2522noticon%2522%253E%252B3%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fa%253E%250A%250A%253Ca%2520class%253D%2522icon-badge%2520%2522%2520href%253D%2522%2523%2522%253E%250A%2509%253Ci%2520class%253D%27bx%2520bxl-gmail%27%253E%253C%252Fi%253E%250A%2509%253Cspan%2520class%253D%2522noticon%2522%253E%252B8%253C%252Fspan%253E%250A%253C%252Fa%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-                            style="width: 1024px; height: 377px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </code>
+                    <pre class="prettyprint">
+                        &lt;a class="icon-badge" href="#">&gt;
+                            &lt;i class='bx bxs-cart-alt'&gt;&lt;/i&gt;
+                            &lt;span class="noticon"&gt;+3&lt;/span&gt;
+                        &lt;/a&gt;
+
+                        &lt;a class="icon-badge " href="#"&gt;
+                            &lt;i class='bx bxl-gmail'&gt;&lt;/i&gt;
+                            &lt;span class="noticon"&gt;+8&lt;/span&gt;
+                        &lt;/a&gt;
+                    </pre>
                 </div>
 
                 <div class="divider"></div>

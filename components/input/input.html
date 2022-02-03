@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Input</title>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=ruby&amp;skin=sons-of-obsidian">
+    </script>
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/components.css">
@@ -86,13 +88,17 @@
                     </div>
                 </div>
                 <div class="code-box">
-                    <code>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ipt-box%2522%253E%250A%2509%253Clabel%253EUsername%2520*%253C%252Flabel%253E%250A%2509%253Cinput%2520type%253D%2522text%2522%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522ipt-box%2520err%2522%253E%250A%2509%253Clabel%253EPassword%2520*%253C%252Flabel%253E%250A%2509%253Cinput%2520type%253D%2522text%2522%253EWrong%2520password.%2520Try%2520again.%250A%253C%252Fdiv%253E"
-                            style="width: 1020px; height: 377px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </code>
+                    <pre class="prettyprint">
+                        &lt;div class="ipt-box"&gt;
+                            &lt;label&gt;Username *&lt;/label&gt;
+                            &lt;input type="text"&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class="ipt-box err"&gt;
+                            &lt;label&gt;Password *&lt;/label&gt;
+                            &lt;input type="text">Wrong password. Try again.
+                        &lt;/div&gt;
+                    </pre>
                 </div>
                 <div class="sub-heading">
                     <strong>Radio</strong>
@@ -120,13 +126,25 @@
 
                 </div>
                 <div class="code-box">
-                    <code>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522radio%2522%253E%250A%2509%253Clabel%2520for%253D%2522radio-1%2522%253EChecked%250A%2509%253Cinput%2520id%253D%2522radio-1%2522%2520name%253Dradio%2522%2520type%253D%2522radio%2522%2520checked%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522radio%2522%253E%250A%2509%253Clabel%2520for%253D%2522radio-2%2522%253EUnchecked%250A%2509%253Cinput%2520id%253D%2522radio-2%2522%2520name%253Dradio%2522%2520type%253D%2522radio%2522%2520unchecked%253E%250A%2509%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522radio%2522%253E%250A%2509%253Clabel%2520for%253D%2522radio-3%2522%253EDisabled%250A%2509%253Cinput%2520id%253D%2522radio-3%2522%2520name%253Dradio%2522%2520type%253D%2522radio%2522%2520disabled%253E%250A%2509%253C%252Flabel%253E%250A%253C%252Fdiv%253E%2520"
-                            style="width: 1024px; height: 548px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </code>
+                    <pre class="prettyprint">
+                    &lt;div class="radio"&gt;
+                        &lt;label for="radio-1"&gt;Checked
+                            &lt;input id="radio-1" name=radio" type="radio" checked&gt;
+                        &lt;/label&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="radio"&gt;
+                        &lt;label for="radio-2"&gt;Unchecked
+                            &lt;input id="radio-2" name=radio" type="radio" unchecked&gt;
+                        &lt;/label&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="radio"&gt;
+                        &lt;label for="radio-3"&gt;Disabled
+                            &lt;input id="radio-3" name=radio" type="radio" disabled&gt;
+                        &lt;/label&gt;
+                    &lt;/div&gt;
+                    </pre>
                 </div>
 
                 <div class="sub-heading">
@@ -137,12 +155,12 @@
                 </div>
                 <div class="practical">
                     <div class="checkbox">
-                        <label for="radio-1">Checked
+                        <label for="checkbox-1">Checked
                             <input id="checkbox-1" name=checkbox" type="checkbox" checked>
                         </label>
                     </div>
                     <div class="checkbox">
-                        <label for="radio-2">Unchecked
+                        <label for="checkbox-2">Unchecked
                             <input id="checkbox-2" name=checkbox" type="checkbox" unchecked>
                         </label>
                     </div>
@@ -154,13 +172,25 @@
                     </div>
                 </div>
                 <div class="code-box">
-                    <code>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522checkbox%2522%253E%250A%2509%253Clabel%2520for%253D%2522checkbox-1%2522%253EChecked%250A%2509%253Cinput%2520id%253D%2522checkbox-1%2522%2520name%253Dcheckbox%2522%2520type%253D%2522checkbox%2522%2520checked%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2520%2520%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522checkbox%2522%253E%250A%2509%253Clabel%2520for%253D%2522checkbox-2%2522%253EUnchecked%250A%2509%253Cinput%2520id%253D%2522checkbox-2%2522%2520name%253Dcheckbox%2522%2520type%253D%2522checkbox%2522%2520unchecked%253E%250A%2509%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522checkbox%2522%253E%250A%2509%253Clabel%2520for%253D%2522checkbox-3%2522%253EDisabled%250A%2509%253Cinput%2520id%253D%2522checkbox-3%2522%2520name%253Dcheckbox%2522%2520type%253D%2522checkbox%2522%2520disabled%253E%250A%2509%253C%252Flabel%253E%250A%253C%252Fdiv%253E%2520"
-                            style="width: 1024px; height: 548px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </code>
+                    <pre class="prettyprint">
+                        &lt;div class="checkbox"&gt;
+                            &lt;label for="checkbox-1"&gt;Checked
+                                &lt;input id="checkbox-1" name=checkbox" type="checkbox" checked&gt;
+                            &lt;/label&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class="checkbox"&gt;
+                            &lt;label for="checkbox-2"&gt;Unchecked
+                                &lt;input id="checkbox-2" name=checkbox" type="checkbox" unchecked&gt;
+                            &lt;/label&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class="checkbox"&gt;
+                            &lt;label for="checkbox-3"&gt;Disabled
+                                &lt;input id="checkbox-3" name=checkbox" type="checkbox" disabled&gt;
+                            &lt;/label&gt;
+                        &lt;/div&gt;
+                    </pre>
                 </div>
                 <div class="divider"></div>
                 <footer>
