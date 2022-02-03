@@ -1,9 +1,12 @@
-
 .component-menu {
-    height: 100vh;
+    height: calc(100vh - 6rem);
     width: 25rem;
     font-family: 'Nunito Sans', sans-serif;
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+    position: sticky;
+    top: 0;
+    /* left: 0; */
+    overflow-x: hidden;
 }
 
 .titles {
@@ -17,7 +20,6 @@
 .list-items {
     font-size: 1rem;
 }
-
 
 .list-items li {
     font-size: 1rem;
@@ -40,7 +42,7 @@
     color: var(--text-color);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
     .component-menu {
         display: none;
     }

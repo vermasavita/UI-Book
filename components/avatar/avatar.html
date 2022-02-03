@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Avatar</title>
-
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=ruby&amp;skin=sons-of-obsidian">
+  </script>
   <link rel="stylesheet" href="/css/nav.css">
   <link rel="stylesheet" href="/css/sidebar.css">
   <link rel="stylesheet" href="/css/components.css">
@@ -30,9 +31,9 @@
         <span class="bar"></span>
       </button>
       <ul class="right-nav">
-        <li><a href="#">Home</a></li>
+        <li><a href="/index.html">Home</a></li>
         <li><a href="/components/alert/alert.html">Documentation</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="https://github.com/vermasavita/">GitHub</a></li>
       </ul>
     </nav>
     <div class="doc-container">
@@ -49,10 +50,10 @@
             <li><a href="/components/card/card.html">Card</a></li>
             <li><a href="/components/image/image.html">Image</a></li>
             <li><a href="/components/input/input.html">Input</a></li>
-            <li><a href="#">Text Utilities</a></li>
-            <li><a href="#">List</a></li>
-            <li><a href="#">Navigation</a></li>
-            <li><a href="#">Modal</a></li>
+            <li><a href="/components/typography/typography.html">Typography</a></li>
+            <li><a href="/components/list/list.html">List</a></li>
+            <li><a href="/components/navigation/navigation.html">Navigation</a></li>
+            <li><a href="/components/modal/modal.html">Modal</a></li>
             <li><a href="#">Rating</a></li>
             <li><a href="#">Tost</a></li>
             <li><a href="#">Grid</a></li>
@@ -81,13 +82,15 @@
           <img src="/images/img-avatar-3.jpeg" alt="avatar image 3" class="avatar">
         </div>
         <div class="code-box">
-          <code class="html">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522%252Fimages%252Fimg-avatar-1.jpeg%2522%2520alt%253D%2522image%25201%2522%2520class%253D%2522avatar%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cimg%2520src%253D%2522%252Fimages%252Fimg-avatar-2.jpeg%2522%2520alt%253D%2522image%25201%2522%2520class%253D%2522avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Fimg-avatar-3.jpeg%2522%2520alt%253D%2522image%25201%2522%2520class%253D%2522avatar%2522%253E"
-              style="width: 1020px; height: 250px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </code>
+          <pre class="prettyprint">
+            &lt;div class="avatar-box"&gt;
+
+              &lt;img src="/images/img-avatar-1.jpeg" alt="avatar image 1" class="avatar"&gt;
+              &lt;img src="/images/img-avatar-2.jpeg" alt="avatar image 2" class="avatar"&gt;
+              &lt;img src="/images/img-avatar-3.jpeg" alt="avatar image 3" class="avatar"&gt;
+
+            &lt;/div>
+          </pre>
         </div>
         <div class="sub-heading">
           <strong>Square Avatar</strong>
@@ -97,18 +100,20 @@
           to the component.
         </div>
         <div class="practical avatar-box">
-          <img src="/images/img-avatar-1.jpeg" alt="image 1" class="avatar square-avatar">
-          <img src="/images/img-avatar-2.jpeg" alt="image 1" class="avatar square-avatar">
-          <img src="/images/img-avatar-3.jpeg" alt="image 1" class="avatar square-avatar">
+          <img src="/images/img-avatar-1.jpeg" alt="avatar image 1" class="avatar square-avatar">
+          <img src="/images/img-avatar-2.jpeg" alt="avatar image 2" class="avatar square-avatar">
+          <img src="/images/img-avatar-3.jpeg" alt="avatar image 3" class="avatar square-avatar">
         </div>
         <div class="code-box">
-          <code class="html">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522%252Fimages%252Fimg-avatar-1.jpeg%2522%2520alt%253D%2522image%25201%2522%2520class%253D%2522avatar%2520square-avatar%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cimg%2520src%253D%2522%252Fimages%252Fimg-avatar-2.jpeg%2522%2520alt%253D%2522image%25201%2522%2520class%253D%2522avatar%2520square-avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Fimg-avatar-3.jpeg%2522%2520alt%253D%2522image%25201%2522%2520class%253D%2522avatar%2520square-avatar%2522%253E"
-              style="width: 1020px; height: 250px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </code>
+          <pre class="prettyprint">
+            &lt;div class="avatar-box"&gt;
+
+              &lt;img src="/images/img-avatar-1.jpeg" alt="avatar image 1" class="avatar square-avatar"&gt;
+              &lt;img src="/images/img-avatar-2.jpeg" alt="avatar image 2" class="avatar square-avatar"&gt;
+              &lt;img src="/images/img-avatar-3.jpeg" alt="avatar image 3" class="avatar square-avatar"&gt;
+
+            &lt;/div>
+          </pre>
         </div>
         <div class="sub-heading">
           <strong>Size Avatar</strong>
@@ -117,23 +122,25 @@
 
         </div>
         <div class="practical avatar-box">
-          <img src="/images/img-avatar-1.jpeg" alt="image 1" class="avatar size-1">
-          <img src="/images/img-avatar-2.jpeg" alt="image 1" class="avatar size-2">
-          <img src="/images/img-avatar-3.jpeg" alt="image 1" class="avatar size-3">
+          <img src="/images/img-avatar-1.jpeg" alt="avatar image 1" class="avatar size-1">
+          <img src="/images/img-avatar-2.jpeg" alt="avatar image 2" class="avatar size-2">
+          <img src="/images/img-avatar-3.jpeg" alt="avatar image 3" class="avatar size-3">
         </div>
         <div class="code-box">
-          <code class="html">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522%252Fimages%252Fimg-avatar-1.jpeg%2522%2520alt%253D%2522image%25201%2522%2520class%253D%2522avatar%2520size-1%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cimg%2520src%253D%2522%252Fimages%252Fimg-avatar-2.jpeg%2522%2520alt%253D%2522image%25201%2522%2520class%253D%2522avatar%2520size-2%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Fimg-avatar-3.jpeg%2522%2520alt%253D%2522image%25201%2522%2520class%253D%2522avatar%2520size-3%2522%253E"
-              style="width: 1024px; height: 250px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </code>
+          <pre class="prettyprint">
+            &lt;div class="avatar-box"&gt;
+
+              &lt;img src="/images/img-avatar-1.jpeg" alt="avatar image 1" class="avatar size-1"&gt;
+              &lt;img src="/images/img-avatar-2.jpeg" alt="avatar image 2" class="avatar size-2"&gt;
+              &lt;img src="/images/img-avatar-3.jpeg" alt="avatar image 3" class="avatar size-3"&gt;
+
+            &lt;/div>
+          </pre>
         </div>
         <div class="divider"></div>
         <footer>
           <div class="pre-page">
-            <a href="#">
+            <a href="/components/alert/alert.html">
               <i class="bx bxs-left-arrow-alt"></i>Alert
             </a></div>
           <div class="next-page">

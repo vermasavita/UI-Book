@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List</title>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=ruby&amp;skin=sons-of-obsidian">
+    </script>
     <link rel="stylesheet" href="../../css/nav.css">
     <link rel="stylesheet" href="../../css/sidebar.css">
     <link rel="stylesheet" href="../../css/components.css">
@@ -28,9 +30,9 @@
                 <span class="bar"></span>
             </button>
             <ul class="right-nav">
-                <li><a href="#">Home</a></li>
+                <li><a href="/index.html">Home</a></li>
                 <li><a href="/components/alert/alert.html">Documentation</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="https://github.com/vermasavita/">GitHub</a></li>
             </ul>
         </nav>
         <div class="doc-container">
@@ -49,8 +51,8 @@
                         <li><a href="/components/input/input.html">Input</a></li>
                         <li><a href="/components/typography/typography.html">Typography</a></li>
                         <li><a href="/components/list/list.html">List</a></li>
-                        <li><a href="#">Navigation</a></li>
-                        <li><a href="#">Modal</a></li>
+                        <li><a href="/components/navigation/navigation.html">Navigation</a></li>
+                        <li><a href="/components/modal/modal.html">Modal</a></li>
                         <li><a href="#">Rating</a></li>
                         <li><a href="#">Tost</a></li>
                         <li><a href="#">Grid</a></li>
@@ -84,13 +86,20 @@
                     </div>
                 </div>
                 <div class="code-box">
-                    <code>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-box%2522%253E%250A%2509%253Cul%253E%250A%2509%2509%253Cdiv%2520class%253D%2522list-title%2522%253EBook%2520Genres%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509%253Cli%253EFiction%253C%252Fli%253E%250A%2509%2509%253Cli%253ENon-finction%253C%252Fli%253E%250A%2509%2509%253Cli%253EFantasy%253C%252Fli%253E%250A%2509%2509%253Cli%253ETriller%253C%252Fli%253E%250A%2509%2509%253Cli%253ERomance%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%253C%252Fdiv%253E"
-                            style="width: 1024px; height: 299px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </code>
+                    <pre class="prettyprint">
+                        &lt;div class="list-box"&gt;
+
+                            &lt;ul&gt;
+                                &lt;div class="list-title"&gt;Book Genres&lt;/div&gt;
+                                &lt;li&gt;Fiction&lt;/li&gt;
+                                &lt;li&gt;Non-finction&lt;/li&gt;
+                                &lt;li&gt;Fantasy&lt;/li&gt;
+                                &lt;li&gt;Triller&lt;/li&gt;
+                                &lt;li&gt;Romance&lt;/li&gt;
+                            &lt;/ul&gt;
+
+                        &lt;/div&gt;
+                    </pre>
                 </div>
                 <div class="sub-heading">
                     <strong>Nested List</strong>
@@ -119,13 +128,26 @@
                     </div>
                 </div>
                 <div class="code-box">
-                    <code>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-box%2522%253E%250A%2509%253Cul%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522list-title%2522%253EBook%2520Genres%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nested-list%2522%253EFiction%250A%2509%2509%2509%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253EHarry%2520Potter%253C%252Fa%253E%253C%252Fli%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253EMeluha%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253EThe%2520Archer%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253ENon-finction%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253EFantasy%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253ETriller%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253ERomance%253C%252Fli%253E%250A%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
-                            style="width: 1024px; height: 548px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </code>
+                    <pre class="prettyprint">
+                        &lt;ul&gt;
+                            &lt;div class="list-title"&gt;Book Genres&lt;/div&gt;
+
+                            &lt;li class="nested-list"&gt;Fiction
+                                &lt;ul&gt;
+                                    &lt;li&gt;&lt;a href="#"&gt;Harry Potter&lt;/a&gt;
+                                    &lt;/li&gt;
+                                    &lt;li&gt;&lt;a href="#"&gt;Meluha&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href="#"&gt;The Archer&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+
+                            &lt;li&gt;Non-finction&lt;/li&gt;
+                            &lt;li&gt;Fantasy&lt;/li&gt;
+                            &lt;li&gt;Triller&lt;/li&gt;
+                            &lt;li&gt;Romance&lt;/li&gt;
+
+                        &lt;/ul&gt;
+                    </pre>
                 </div>
                 <div class="sub-heading">
                     <strong>Stacked List</strong>
@@ -149,13 +171,24 @@
                     </ul>
                 </div>
                 <div class="code-box">
-                    <code>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522stacked-list%2522%253E%250A%2509%253Cli%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-title%2522%253EFiction%2520Book%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-content%2522%253E%2522Fiction%2522%2520refers%2520to%2520literature%2520created%2520from%2520the%2520imagination.%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fli%253E%250A%2520%2520%250A%2509%253Cli%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-title%2522%253ENon%2520Fiction%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-content%2522%253ENonfiction%2520is%2520any%2520document%2520or%2520media%2520content%2520that%2520intends%252C%2520in%2520good%2520%2520%2520%2520%2520%2520%2520%2509%2509faith%252C%2520to%2520present%2520only%2520truth%2520and%2520accuracy%2520regarding%2520information%252C%2520events%252C%2520or%2520people.%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fli%253E%250A%2520%2520%250A%253C%252Ful%253E"
-                            style="width: 1024px; height: 505px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </code>
+                    <pre class="prettyprint">
+                        &lt;ul class="stacked-list"&gt;
+
+                            &lt;li&gt;
+                                &lt;div class="card-title">Fiction Book&lt;/div&gt;
+                                &lt;div class="card-content"&gt;"Fiction" refers to literature created from the imagination.
+                                &lt;/div&gt;
+                            &lt;/li&gt;
+
+                            &lt;li&gt;
+                                &lt;div class="card-title"&gt;Non Fiction&lt;/div&gt;
+                                &lt;div class="card-content">Nonfiction is any document or media content that intends, in good
+                                    faith, to present only truth and accuracy regarding information, events, or people.
+                                &lt;/div&gt;
+                            &lt;/li&gt;
+
+                        &lt;/ul&gt;
+                    </pre>
                 </div>
                 <div class="divider"></div>
                 <footer>
