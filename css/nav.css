@@ -103,6 +103,7 @@ body {
   border: none;
   background-color: var(--secondary-color);
   cursor: pointer;
+  /* z-index: 1; */
 }
 
 .toggle-btn .bar {
@@ -113,6 +114,9 @@ body {
   color: var(--secondary-color);
 }
 
+.body-margin-top{
+  margin-top: 10rem;
+}
 @media screen and (max-width: 1200px) {
   .toggle-btn {
     display: flex;
@@ -150,5 +154,6 @@ body {
 
   .right-nav.active {
     display: flex;
+    z-index: 1;
   }
 }
