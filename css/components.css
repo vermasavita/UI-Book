@@ -18,7 +18,7 @@
 .intro-line {
   font-size: 1.7rem;
   margin-top: 1rem;
-  line-height: 60px;
+  line-height: 40px;
 }
 
 .divider {
@@ -35,10 +35,17 @@
 
 .sub-head-content {
   font-size: 1.7rem;
-  line-height: 60px;
+  line-height: 40px;
   margin-top: 1rem;
 }
+.sub-head-content span{
+  display: block;
+  color: var(--primary-color);
+}
 
+.sub-head-content p{
+  color: var(--primary-color);
+}
 .practical {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -93,11 +100,11 @@ footer {
   color: var(--primary-color);
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .code-box{
         display: none;
     }
-}
+} */
 @media screen and (max-width: 400px) {
   html {
     font-size: 50%;

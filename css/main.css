@@ -27,7 +27,7 @@
     text-align: center;
     width: 95%;
     font-weight: 900;
-    color: var(--text-color);
+    color: var(--info-txt-color);
     font-family: fantasy;
 }
 
@@ -46,11 +46,11 @@
 }
 
 .twin-btn a{
-    background-color: var(--secondary-color);
+    background-color: var(--info-txt-color);
     box-shadow: 0 8px 12px var(--bg-secondary-color);
     border: 1px solid var(--primary-color);
     border-radius: 5px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 2rem;
     text-decoration: none;
     margin-right: 2rem;
