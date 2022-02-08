@@ -1,0 +1,4 @@
+.heading span, .intro-line span, .sub-head-content span{
+    color: var(--primary-color);
+    font-family: cursive;
+}
