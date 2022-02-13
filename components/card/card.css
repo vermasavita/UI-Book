@@ -70,22 +70,22 @@
   left: -1rem;
 }
 
-.ecommerce-card-box {
+/* .ecommerce-card-box {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 30rem;
   background-color: var(--bg-success-color);
   border-radius: 5px;
-}
-.card-header {
+} */
+/* .card-header {
   height: 30rem;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-}
+} */
 
-.card-header img {
+/* .card-header img {
   height: 90%;
   width: 70%;
   overflow: hidden;
@@ -95,15 +95,6 @@
   padding: 1rem;
 }
 
-/* .heart-icon .bx-heart {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 0.2rem;
-  font-size: 2.5rem;
-  border-radius: 50%;
-  margin: 1rem;
-} */
 .card-info h4 {
   font-size: 1.5rem;
   font-weight: 300;
@@ -118,21 +109,21 @@
   color: var(--secondary-color);
   padding: 1rem;
   border-radius: 0px 0px 5px 5px;
-}
+} */
 
 /* .product-price {
   margin-top: 1rem;
   font-size: 2rem;
 } */
 
-.practical .horizontal-card {
+/* .practical .horizontal-card {
   width: 50rem;
   display: flex;
   justify-content: flex-start;
   overflow: hidden;
-}
+} */
 
-.practical .horizontal-card .card-header {
+/* .practical .horizontal-card .card-header {
   width: 23rem;
   display: flex;
   justify-content: flex-start;
@@ -144,9 +135,9 @@
   height: 100%;
   overflow: hidden;
   object-fit: cover;
-}
+} */
 
-.practical .horizontal-card .card-info {
+/* .practical .horizontal-card .card-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -161,9 +152,9 @@
   width: 100%;
   border-radius: 0px;
   cursor: pointer;
-}
+} */
 
-.quantity {
+/* .quantity {
   font-size: 1.5rem;
   display: flex;
   margin-bottom: 4rem;
@@ -176,6 +167,80 @@
 .quantity input {
   padding: 0.5rem 1rem;
   width: 8rem;
+} */
+
+.shopping-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    margin-left: 2rem;
+    overflow: hidden;
+    min-height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.shopping-cart .content{
+    width: 70%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.content h4, h6{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.content h6{
+    color: var(--ecomm-primary-color);
+}
+.content h4 strike{
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding-left: 1.5rem;
+}
+
+.content .qty{
+    font-size: 1.5rem;
+    padding: .7rem .5rem;
+    margin-bottom: 1rem;
+}
+
+.content .qty input{
+    padding: .7rem .5rem;
+    width: 6rem;
+    margin-left: .5rem;
+}
+
+.cart-btn{
+    font-size: 1.3rem;
+    border-radius: 5px;
+    padding: 1rem 0rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    cursor: pointer;
 }
 
 .cart {
@@ -280,3 +345,54 @@
   text-decoration: none;
   color: var(--secondary-color);
 }
+
+.price-cart{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    max-width: 30rem;
+    padding: 1.5rem;
+}
+
+.price-cart h1{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.price-cart hr{
+    color:  var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.price-cart h3{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+.price-cart h4{
+    font-size: 1.5rem;
+    padding-bottom: .5rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-cart p{
+    font-size: 1.3rem;
+}
+
+.place-order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price-cart button{ 
+    padding: .8rem .5rem;
+    border: none;
+    background: none;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
