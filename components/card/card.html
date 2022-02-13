@@ -9,6 +9,13 @@
     <script
         src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=ruby&amp;skin=sons-of-obsidian">
     </script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/components.css">
@@ -194,44 +201,72 @@
                     Ecommerce Product Card is a card which is used in ecommerce website to display a product or to add or remove that product from wishlist.
                 </div>
                 <div class="practical">
-                    <div class="ecommerce-card-box">
-                        <div class="card-header">
-                            <img src="https://images-eu.ssl-images-amazon.com/images/I/51InjRPaF7L._SX198_BO1,204,203,200_QL40_FMwebp_.jpg" alt="">
-                            <div class="heart-icon"><i class="bx bx-heart"></i></div>
+                    <div class="cart">
+                        <div class="img-container">
+                          <img src="https://m.media-amazon.com/images/I/81bsw6fnUiL._AC_UY218_.jpg" alt="" />
+                          <ul class="product-action-icon">
+                            <li>
+                              <i class="fa fa-heart" aria-hidden="true"></i>
+                            </li>
+                          </ul>
                         </div>
-
-                        <div class="card-info">
-                            <h1>Eloquent JavaScript </h1>
-                            <h4>Paperback</h4>
-                            <div class="product-price">&#x20B9;2500</div>
+                        <div class="product-content">
+                          <div class="product-name">
+                            <h3>Rich Dad & Poor Dad</h3>
+                          </div>
+                          <div class="product-price">
+                            <h2>&#8377;400</h2>
+                            <div class="product-rating">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                          </div>
                         </div>
-                        <div class="card-btn">
-                            <button class="add-btn">Add to Cart</button>
+                        <div class="add-to-cart">
+                          <a href="">Add to Cart</a>
                         </div>
-                        
-                    </div>
+                      </div>
                 </div>
                 <div class="code-box">
                     <pre class="prettyprint">
-                        &lt;div class="ecommerce-card-box"&gt;
+                        &lt;div class="cart"&gt;
 
-                                &lt;div class="card-header"&gt;
-                                    &lt;img src="/images/img-avatar-2.jpeg" alt=""&gt;
-                                    <!-- &lt;img src="https://images-eu.ssl-images-amazon.com/images/I/51InjRPaF7L._SX198_BO1,204,203,200_QL40_FMwebp_.jpg" alt=""&gt; -->
-                                    &lt;div class="heart-icon"&gt; &lt;i class="bx bx-heart"&gt; &lt;/i&gt; &lt;/div&gt;
-                                &lt;/div&gt;
-    
-                                &lt;div class="card-info"&gt;
-                                    &lt;h1 &gt;Eloquent JavaScript  &lt;/h1&gt;
-                                    &lt;h4 &gt;Paperback &lt;/h4&gt;
-                                    &lt;div class="product-price" &gt;&#x20B9;2500 &lt;/div&gt;
-                                &lt;/div&gt;
-                            
-                                &lt;div class="card-btn"&gt;
-                                    &lt;button class="add-btn"&gt;Add to Cart &lt;/button&gt;
-                                &lt;/div&gt;
+                                    &lt;div class="img-container"&gt;
+                                        &lt;img src="https://m.media-amazon.com/images/I/81bsw6fnUiL._AC_UY218_.jpg" alt="" /&gt;
+                                        &lt;ul class="product-action-icon"&gt;
+                                            &lt;li&gt;
+                                                &lt;i class="bx bx-heart" aria-hidden="true"&gt;&lt;/i&gt;
+                                            &lt;/li&gt;
+                                        &lt;/ul&gt;
+                                    &lt;/div&gt;
 
-                        &lt;/div&gt;
+                                    &lt;div class="product-content"&gt;
+                                        &lt;div class="product-name"&gt;
+                                            &lt;h3&gt;Rich Dad & Poor Dad&lt;/h3&gt;
+                                        &lt;/div&gt;
+                                
+                                        &lt;div class="product-price"&gt;
+                                            &lt;h2&gt;&#8377;400&lt;/h2&gt;
+                                            &lt;div class="product-rating"&gt;
+                                                &lt;i class="fa fa-star" aria-hidden="true"&gt;&lt;/i&gt;
+                                                &lt;i class="fa fa-star" aria-hidden="true"&gt;&lt;/i&gt;
+                                                &lt;i class="fa fa-star" aria-hidden="true"&gt;&lt;/i&gt;
+                                                &lt;i class="fa fa-star" aria-hidden="true"&gt;&lt;/i&gt;
+                                                &lt;i class="fa fa-star grey" aria-hidden="true"&gt;&lt;/i&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+
+                                    &lt;/div&gt;
+
+                                    &lt;div class="add-to-cart"&gt;
+                                          &lt;a href=""&gt;Add to Cart&lt;/a&gt;
+                                    &lt;/div&gt;
+
+                                &lt;/div&gt;
+                                          
                         </pre>
                         </div>
                         <div class="sub-heading">
@@ -292,6 +327,7 @@
                         &lt;/div&gt;
                         </pre>
                         </div>
+                        
                 <div class="divider"></div>
                 <footer>
                     <div class="pre-page">
