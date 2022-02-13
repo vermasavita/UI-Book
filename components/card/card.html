@@ -276,58 +276,109 @@
                             Ecommerce Horizontal Product Card is a card which is used horizontally in ecommerce website to display a product or to add or remove that product from wishlist.
                         </div>
                 <div class="practical">
-                    <div class="ecommerce-card-box horizontal-card">
-                        <div class="card-header">
-                            <img src="https://images-eu.ssl-images-amazon.com/images/I/51InjRPaF7L._SX198_BO1,204,203,200_QL40_FMwebp_.jpg" alt="">
+                    <div class="shopping-cart">
+                        <div class="image">
+                            <img src="https://m.media-amazon.com/images/I/81bsw6fnUiL._AC_UY218_.jpg" alt="" srcset="">
                         </div>
-
-                        <div class="card-info">
-                            <h1>Eloquent JavaScript </h1>
-                            <h4>Paperback</h4>
-                            <div class="product-price">&#x20B9;2500</div>
-                            <div class="quantity">
-                                <label for="number">Quantity:</label>
-                                    <input type="number" name="" id="">
-                                
-
-                            </div>
-                            <div class="card-btn">
-                                <button class="add-btn">Move to Wishlist</button>
-                            </div>
+                        <div class="content">
+                            <h2>Rich Dad & Poor Dad</h2>
+                                <h4>&#x20B9;4000 <strike>&#x20B9;300</strike></h4>
+                                <h6>50% off</h6>
+                                <p class="qty">
+                                Quantity:
+                                <input type="number" />
+                                </p>
+                                <p class="cart-btn">
+                                <i class="fa fa-trash"></i>
+                                <span>Remove</span>
+                                </p>
+                                <p class="cart-btn">
+                                    <i class="fa fa-heart"></i>
+                                    <span>Add to Wishlist</span>
+                                </p>
                         </div>
-
-                        
                     </div>
                 </div>
                 <div class="code-box">
                     <pre class="prettyprint">
-                        &lt;div class="ecommerce-card-box horizontal-card"&gt;
+                        &lt;div class="shopping-cart"&gt;
 
-                                &lt;div class="card-header"&gt;
+                                &lt;div class="image"&gt;
                                     &lt;img src="/images/img-avatar-2.jpeg" alt=""&gt;
-                                    <!-- &lt;img src="https://images-eu.ssl-images-amazon.com/images/I/51InjRPaF7L._SX198_BO1,204,203,200_QL40_FMwebp_.jpg" alt=""&gt; -->
-                                    &lt;div class="heart-icon"&gt; &lt;i class="bx bx-heart"&gt; &lt;/i&gt; &lt;/div&gt;
                                 &lt;/div&gt;
     
-                                &lt;div class="card-info"&gt;
-                                    &lt;h1 &gt;Eloquent JavaScript  &lt;/h1&gt;
-                                    &lt;h4 &gt;Paperback &lt;/h4&gt;
-                                    &lt;div class="product-price" &gt;&#x20B9;2500 &lt;/div&gt;
-                                &lt;/div&gt;
-                            
-                                &lt;div class="quantity"&gt;
-                                    &lt;label for="number"&gt;Quantity:&lt;/label&gt;
-                                        &lt;input type="number" name="" id=""&gt;
-                                &lt;/div&gt;
+                                &lt;div class="content"&gt;
 
-                                &lt;div class="card-btn"&gt;
-                                    &lt;button class="add-btn"&gt;Move to Wishlist &lt;/button&gt;
+                                    &lt;h2&gt;Rich Dad & Poor Dad&lt;/h2&gt;
+                                    &lt;h4&gt;&#x20B9;4000 &lt;strike&gt;&#x20B9;300&lt;/strike>&lt;/h4&gt;
+                                    &lt;h6&gt;50% off&lt;/h6&gt;
+
+                                    &lt;p class="qty"&gt;
+                                        Quantity:
+                                        &lt;input type="number" /&gt;
+                                    &lt;/p&gt;
+
+                                    &lt;p class="cart-btn"&gt;
+                                        &lt;i class="fa fa-trash"&gt;&lt;/i&gt;
+                                        &lt;span&gt;Remove&lt;/span&gt;
+                                    &lt;/p&gt;
+
+                                    &lt;p class="cart-btn"&gt;
+                                        &lt;i class="fa fa-heart"&gt;&lt;/i&gt;
+                                        &lt;span&gt;Add to Wishlist&lt;/span&gt;
+                                    &lt;/p&gt;
+
                                 &lt;/div&gt;
                                 
                         &lt;/div&gt;
                         </pre>
                         </div>
                         
+                        <div class="sub-heading">
+                            <strong>Price Card</strong>
+                        </div>
+                        <div class="sub-head-content">
+                            Price Card is a card which is used in ecommerce website to display a breakdown of total price of product.
+                        </div>
+                        <div class="practical">
+                            <div class="price-cart">
+                                <h1>Price Details</h1><hr>
+                                <h4><span>Subtotal:</span><span>&#8377; 400 </span></h4>
+                                
+                                <h4><span>Tax (5%):</span><span>&#8377; 20</span></h4>
+                                
+                                <h4><span>Shipping (5%):</span><span>&#8377; 10</span></h4>
+                                <hr>
+                                <h3><span>Total</span><span>&#8377; 430</span></h3>
+                                <hr>
+                                <p>You will save <span>&#8377; 40</span> on this order
+                                </p>
+                                <div class="place-order"><button>Place Order</button></div>       
+                            </div>
+                            </div>
+                            <div class="code-box">
+                                <pre class="prettyprint">
+                                    &lt;div class="price-cart"&gt;
+
+                                        &lt;h1&gt;Price Details&gt;/h1&gt;&lt;hr&gt;
+                                        
+                                        &lt;h4&gt;&lt;span&gt;Subtotal:&lt;/span&gt;&lt;span&gt;&#8377; 400 &lt;/span&gt;&lt;/h4&gt;  
+                                        &lt;h4&gt;&lt;span&gt;Tax (5%):&lt;/span&gt;&lt;span&gt;&#8377; 20&lt;/span&gt;&lt;/h4&gt;  
+                                        &lt;h4&gt;&lt;span&gt;Shipping (5%):&lt;/span&gt;&lt;span&lt;&#8377; 10&lt;/span&gt;&lt;/h4&gt;
+                                        &lt;hr&gt;
+
+                                        &lt;h3&gt;&lt;span&gt;Total&lt;/span&gt;&lt;span&gt;&#8377; 430&lt;/span&gt;&lt;/h3&gt;
+                                        &lt;hr&gt;
+
+                                        &lt;p&gt;You will save &gt;span&gt;&#8377; 40&lt;/span&gt; on this order
+                                        &lt;/p&gt;
+
+                                        &lt;div class="place-order"&gt;&lt;button&gt;Place Order&lt;/button&gt;&lt;/div&gt;      
+
+                                    &lt;/div&gt;
+                                    </pre>
+                                    </div>
+                          
                 <div class="divider"></div>
                 <footer>
                     <div class="pre-page">
