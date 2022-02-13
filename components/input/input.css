@@ -22,14 +22,14 @@
   font-weight: 200;
 }
 
-.login-container .login-credential .login-email {
+.login-email {
   padding-bottom: 2rem;
 }
 
 .login-password {
   color: var(--error-txt-color);
 }
-.login-container .login-credential input {
+.login-credential input {
   border: 1px solid var(--bg-secondary-color);
   padding: 0.7rem 0.7rem;
   font-size: 1.3rem;
@@ -67,7 +67,7 @@
   margin-top: 2rem;
 }
 
-.login-container .login-btns .login {
+.login-btns .login {
   background-color: var(--primary-color);
   width: 100%;
   padding: 1rem;
