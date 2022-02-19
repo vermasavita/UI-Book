@@ -1,4 +1,7 @@
 # UI-Book
+
+UI Book is a book of CSS library, integrated with pre-defined styled classes, and Utilites, for a quick creation of websites, with much focus on Functionality.
+
 ## 🔥 About the project
 
 https://user-images.githubusercontent.com/82254618/154791824-85d36dbb-bda4-4e36-9b9a-20620ec458cc.mov
