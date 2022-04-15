@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Badge</title>
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=ruby&amp;skin=sons-of-obsidian">
-    </script>
+    <script
+        src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=ruby&amp;skin=sons-of-obsidian">
+        </script>
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/components.css">
     <link rel="stylesheet" href="/components/avatar/avatar.css">
-    <link rel="stylesheet" href="/components/badge/badge.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./rating.css">
 </head>
 
 <body>
@@ -62,93 +63,71 @@
                 </div>
             </div>
             <div class="doc-content">
-                <div class="heading">Badge</div>
+                <div class="heading">Rating</div>
                 <div class="intro-line">
-                    As the name suggests, the badge makes the labeling. Like the label on the product card if it’s new / best selling / or on discount etc. Notification counts also come under labeling.
+                    As the name suggests, rating shows the customer likes or dislike about the product. More rating
+                    refers products is good and vice versa.
                 </div>
                 <div class="divider"></div>
                 <div class="sub-heading">
-                    <strong>Avatar Badge</strong>
+                    <strong>Rating with Star Icon </strong>
                 </div>
                 <div class="sub-head-content">
-                    Avatar badge helps us to find the current status of user at any online platform.
-                    <span>It can be used with 3 variants : online | offline | dnd</span>
+                    This is simply showing rating with five star icons
                 </div>
                 <div class="practical">
-                    <div class="badge">
-                        <img src="/images/img-avatar-1.jpeg" alt="image 1" class="avatar">
-                        <span class="status online"></span>
+                    <div class="rating-container">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
                     </div>
-                    <div class="badge">
-                        <img src="/images/img-avatar-2.jpeg" alt="image 2" class="avatar">
-                        <span class="status offline"></span>
-                    </div>
-
-                    <div class="badge">
-                        <img src="/images/img-avatar-3.jpeg" alt="image 3" class="avatar">
-                        <span class="status dnd"></span>
-                    </div>
-
-
                 </div>
                 <div class="code-box">
                     <pre class="prettyprint">
-                        &lt;div class="badge"&gt;
-                          &lt;img src="/images/img-avatar-1.jpeg" alt="image 1" class="avatar"&gt;
-                          &lt;span class="status online">&lt;/span&gt;
-                         &lt;/div&gt;
+                        &lt;div class="rating-container"&gt;
 
-                        &lt;div class="badge"&gt;
-                            &lt;img src="/images/img-avatar-2.jpeg" alt="image 2" class="avatar"&gt;
-                            &lt;span class="status offline">&lt;/span&gt;
-                        &lt;/div>
-    
-                        &lt;div class="badge"&gt;
-                            &lt;img src="/images/img-avatar-3.jpeg" alt="image 3" class="avatar"&gt;
-                            &lt;span class="status dnd"&gt;&lt;/span&gt;
-                        &lt;/div&gt;
+                            &lt;i class='bx bxs-star'&gt;&lt;/i&gt;
+                            &lt;i class='bx bxs-star'&gt;&lt;/i&gt;
+                            &lt;i class='bx bxs-star'&gt;&lt;/i&gt;
+                            &lt;i class='bx bx-star'&gt;&lt;/i&gt;
+                            &lt;i class='bx bx-star'&gt;&lt;/i&gt;
+
+                        &lt;/div&gt; 
                     </pre>
                 </div>
                 <div class="sub-heading">
-                    <strong>Number icon Badge</strong>
+                    <strong>Rating with Number</strong>
                 </div>
                 <div class="sub-head-content">
-                   Numbers on icon show number of notification or number of items added in cart.
+                    Instead of star,  rating can be shown in numbers.
                 </div>
                 <div class="practical">
-                    <a class="icon-badge" href="#">
-                        <i class='bx bxs-cart-alt'></i>
-                        <span class="noticon">+3</span>
-                    </a>
-                    <a class="icon-badge " href="#">
-                        <i class='bx bxl-gmail'></i>
-                        <span class="noticon">+8</span>
-                    </a>
+                    <div class="rating-container number-rating">
+                        <p class="p-rating">4 <i class='bx bxs-star'></i></p>
+                    </div>
                 </div>
                 <div class="code-box">
                     <pre class="prettyprint">
-                        &lt;a class="icon-badge" href="#">&gt;
-                            &lt;i class='bx bxs-cart-alt'&gt;&lt;/i&gt;
-                            &lt;span class="noticon"&gt;+3&lt;/span&gt;
-                        &lt;/a&gt;
+                        &lt;div class="rating-container number-rating"&gt;
 
-                        &lt;a class="icon-badge " href="#"&gt;
-                            &lt;i class='bx bxl-gmail'&gt;&lt;/i&gt;
-                            &lt;span class="noticon"&gt;+8&lt;/span&gt;
-                        &lt;/a&gt;
+                            &lt;p&gt;4 &lt;i class='bx bxs-star'&gt;&lt;/i&gt;&lt;/p&gt;
+                        
+                        &lt;/div&gt;
                     </pre>
                 </div>
 
                 <div class="divider"></div>
                 <footer>
                     <div class="pre-page">
-                        <a href="/components/avatar/avatar.html">
-                            <i class="bx bxs-left-arrow-alt"></i>Avatar
+                        <a href="/components/modal/modal.html">
+                            <i class="bx bxs-left-arrow-alt"></i>Modal
                         </a>
                     </div>
                     <div class="next-page">
-                        <a href="/components/button/button.html">
-                            <i class='bx bxs-right-arrow-alt'></i>Button
+                        <a href="/components/toast/toast.html">
+                            <i class='bx bxs-right-arrow-alt'></i>Toast
                         </a>
                     </div>
                 </footer>
