@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast</title>
+    <script
+        src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=ruby&amp;skin=sons-of-obsidian">
+        </script>
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./rating.css">
+    <link rel="stylesheet" href="./toast.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-bar">
+            <div class="left-nav">
+                <a href="#">
+                    UI Book
+                </a>
+            </div>
+            <button href="#" class="toggle-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="right-nav">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/components/alert/alert.html">Documentation</a></li>
+                <li><a href="https://github.com/vermasavita/">GitHub</a></li>
+            </ul>
+        </nav>
+        <div class="doc-container">
+            <div class="component-menu">
+                <div class="titles"><strong>Components</strong>
+
+                </div>
+                <div class="list-items">
+                    <ul>
+                        <li><a href="/components/alert/alert.html">Alert</a></li>
+                        <li><a href="/components/avatar/avatar.html">Avatar</a></li>
+                        <li><a href="/components/badge/badge.html">Badge</a></li>
+                        <li><a href="/components/button/button.html">Button</a></li>
+                        <li><a href="/components/card/card.html">Card</a></li>
+                        <li><a href="/components/image/image.html">Image</a></li>
+                        <li><a href="/components/input/input.html">Input</a></li>
+                        <li><a href="/components/typography/typography.html">Typography</a></li>
+                        <li><a href="/components/list/list.html">List</a></li>
+                        <li><a href="/components/navigation/navigation.html">Navigation</a></li>
+                        <li><a href="/components/modal/modal.html">Modal</a></li>
+                        <li><a href="/components/rating/rating.html">Rating</a></li>
+                        <li><a href="/components/toast/toast.html">Toast</a></li>
+                        <li><a href="#">Grid</a></li>
+                        <li><a href="#">Slider</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="doc-content">
+                <div class="heading">Toast</div>
+                <div class="intro-line">
+
+                </div>
+                <div class="divider"></div>
+                <div class="sub-heading">
+                    <strong></strong>
+                </div>
+                <div class="sub-head-content">
+                    This is simply showing rating with five star icons
+                </div>
+                <div class="practical">
+                    <div class="btn-box">
+                        <button onclick="toastBarFunc()">BASELINE</button>
+                        <button onclick="leadingToastFunc()">LEADING</button>
+                    </div>
+
+                    <div id="baseline-toast">
+                        <p>Can't send photo. Retry in 5 seconds</p>
+                        <span><i class="bx bx-x"></i></span>
+                    </div>
+
+                    <div id="leading-toast">
+                        <p>Your photo has been archived.</p>
+                        <button>UNDO</button>
+                        <span><i class="bx bx-x"></i></span>
+                    </div>
+                </div>
+                    <div class="code-box">
+                        <pre class="prettyprint">
+                            &lt;div class="btn-box" &gt;
+                                &lt;button onclick="toastBarFunc()"&gt;BASELINE&lt;/button&gt;
+                                &lt;button onclick="leadingToastFunc()"&gt;LEADING&lt;/button&gt;
+                            &lt;/div&gt;
+
+                            &lt;div id="baseline-toast"&gt;
+                                &lt;p&gt;Can't send photo. Retry in 5 seconds&lt;/p&gt;
+                                &lt;span&gt;&lt;i class="bx bx-x"&gt;&lt;/i&gt;&lt;/span&gt;
+                            &lt;/div&gt;
+        
+                            &lt;div id="leading-toast"&gt;
+                                &lt;p&gt;Your photo has been archived.&lt;/p&gt;
+                                 &lt;button&gt;UNDO&lt;/button&gt;
+                                &lt;span&gt;&lt;i class="bx bx-x"&gt;&lt;/i&gt;&lt;/span&gt;
+                            &lt;/div&gt;
+                            
+                            ------------------------------------------------------------
+                            //JavaScript Code
+
+                            function toastBarFunc() {
+                                let x = document.getElementById("baseline-toast");
+                                x.className = "show";
+                                setTimeout(function () {
+                                    x.className = x.className.replace("show", "");
+                                }, 3000);
+                            }
+                            
+                            ------------------------------------------------------------
+
+                            // tostbar2
+                            function leadingToastFunc() {
+                                let snackbarTwo = document.getElementById("leading-toast");
+                                snackbarTwo.className = "show";
+                                setTimeout(function () {
+                                    snackbarTwo.className = snackbarTwo.className.replace("show", "");
+                                }, 3000);
+                            }
+
+                    </pre>
+                    </div>
+
+                    <div class="divider"></div>
+                    <footer>
+                        <div class="pre-page">
+                            <a href="/components/rating/rating/html">
+                                <i class="bx bxs-left-arrow-alt"></i>Toast
+                            </a>
+                        </div>
+                        <div class="next-page">
+                            <a href="/components/grid/grid.html">
+                                <i class='bx bxs-right-arrow-alt'></i>Grid
+                            </a>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+    </div>
+</body>
+
+</html>
