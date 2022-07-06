@@ -14,11 +14,3 @@ function leadingToastFunc() {
         snackbarTwo.className = snackbarTwo.className.replace("show", "");
     }, 3000);
 }
-
-// function toastBarFuncThird() {
-//     let snackbarThree = document.getElementById("stack-toast");
-//     snackbarThree.className = "show";
-//     setTimeout(function () {
-//         snackbarThree.className = snackbarThree.className.replace("show", "");
-//     }, 3000);
-// }
