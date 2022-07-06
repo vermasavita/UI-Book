@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Typography</title>
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=ruby&amp;skin=sons-of-obsidian">
-    </script>
+    <title>Rating</title>
+    <script
+        src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=ruby&amp;skin=sons-of-obsidian">
+        </script>
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/components.css">
-    <link rel="stylesheet" href="/components/typography/typography.css">
+    <link rel="stylesheet" href="/components/avatar/avatar.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./rating.css">
 </head>
 
 <body>
@@ -55,76 +57,77 @@
                         <li><a href="/components/rating/rating.html">Rating</a></li>
                         <li><a href="/components/toast/toast.html">Toast</a></li>
                         <li><a href="/components/grid/grid.html">Grid</a></li>
-                        <li><a href="#">Sidebar</a></li>
+                        <li><a href="#">Slider</a></li>
 
                     </ul>
                 </div>
             </div>
             <div class="doc-content">
-                <div class="heading">Typography</div>
+                <div class="heading">Rating</div>
                 <div class="intro-line">
-                    Typography is used for styling the text and fixing the size of the text. 
+                    As the name suggests, rating shows the customer likes or dislike about the product. More rating
+                    refers products is good and vice versa.
                 </div>
                 <div class="divider"></div>
                 <div class="sub-heading">
-                    <strong>Headings</strong>
+                    <strong>Rating with Star Icon </strong>
                 </div>
                 <div class="sub-head-content">
-                    All HTML tags are available. <strong>&lt;h1&gt;</strong>stands for larger.
+                    This is simply showing rating with five star icons
                 </div>
                 <div class="practical">
-                    <div class="heading-txt">
-                        <h1>h1 heading </h1>
-                        <h2>h2 heading</h2>
-                        <h3>h3 heading</h3>
-                        <h4>h4 heading</h4>
-                        <h5>h5 heading</h5>
-                        <h6>h6 heading</h6>
+                    <div class="rating-container">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
                     </div>
                 </div>
                 <div class="code-box">
                     <pre class="prettyprint">
-                    &lt;div class="heading-txt"&gt;
+                        &lt;div class="rating-container"&gt;
 
-                        &lt;h1&gt;h1 heading &lt;/h1&gt;
-                        &lt;h2&gt;h2 heading&lt;/h2&gt;
-                        &lt;h3&gt;h3 heading&lt;/h3&gt;
-                        &lt;h4&gt;h4 heading&lt;/h4&gt;
-                        &lt;h5&gt;h5 heading&lt;/h5&gt;
-                        &lt;h6&gt;h6 heading&lt;/h6&gt;
+                            &lt;i class='bx bxs-star'&gt;&lt;/i&gt;
+                            &lt;i class='bx bxs-star'&gt;&lt;/i&gt;
+                            &lt;i class='bx bxs-star'&gt;&lt;/i&gt;
+                            &lt;i class='bx bx-star'&gt;&lt;/i&gt;
+                            &lt;i class='bx bx-star'&gt;&lt;/i&gt;
 
-                    &lt;/div&gt;
+                        &lt;/div&gt; 
                     </pre>
                 </div>
                 <div class="sub-heading">
-                    <strong>Small Text</strong>
+                    <strong>Rating with Number</strong>
                 </div>
                 <div class="sub-head-content">
-                    Use <strong>&lt;small&gt;</strong> tag for small text size.
+                    Instead of star,  rating can be shown in numbers.
                 </div>
                 <div class="practical">
-                    <div class="small-txt">
-                        <small>Small text</small>
+                    <div class="rating-container number-rating">
+                        <p class="p-rating">4 <i class='bx bxs-star'></i></p>
                     </div>
                 </div>
                 <div class="code-box">
                     <pre class="prettyprint">
-                        &lt;div class="small-txt"&gt;
-                            &lt;small&gt;Small text&lt;/small&gt;
+                        &lt;div class="rating-container number-rating"&gt;
+
+                            &lt;p&gt;4 &lt;i class='bx bxs-star'&gt;&lt;/i&gt;&lt;/p&gt;
+                        
                         &lt;/div&gt;
                     </pre>
                 </div>
-            
+
                 <div class="divider"></div>
                 <footer>
                     <div class="pre-page">
-                        <a href="/components/input/input.html">
-                            <i class="bx bxs-left-arrow-alt"></i>Input
+                        <a href="/components/modal/modal.html">
+                            <i class="bx bxs-left-arrow-alt"></i>Modal
                         </a>
                     </div>
                     <div class="next-page">
-                        <a href="/components/list/list.html">
-                            <i class='bx bxs-right-arrow-alt'></i>List
+                        <a href="/components/toast/toast.html">
+                            <i class='bx bxs-right-arrow-alt'></i>Toast
                         </a>
                     </div>
                 </footer>
