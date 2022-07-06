@@ -43,4 +43,4 @@ https://user-images.githubusercontent.com/82254618/154791824-85d36dbb-bda4-4e36-
 
 - HTML
 - CSS
-- JavaScript
+- JavaScrip
